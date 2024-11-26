@@ -33,10 +33,11 @@ body {
     display: flex;
     justify-content: center;
     margin: 1rem 0 0 0;
+    flex-wrap: wrap;
 }
 
 .nav-links li {
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 .nav-links a {
@@ -55,8 +56,8 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url('img/refresh-hero-cuisine-bd.png') no-repeat center center/cover;
-    /* color: white; */
+    background: url('img/hero-background.jpg') no-repeat center center/cover;
+    color: white;
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -91,6 +92,7 @@ body {
     background: #ff6f61;
     color: white;
 }
+
 
 /* Section Styles */
 section {
@@ -267,5 +269,19 @@ h2 {
 
     .gallery-grid {
         grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .hero {
+        height: 30vh;
+        padding: 1rem;
+    }
+
+    .hero-content h2 {
+        font-size: 1.8rem;
     }
 }
