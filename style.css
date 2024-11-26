@@ -55,8 +55,8 @@ body {
 
 /* Hero Section */
 .hero {
-    background: url('https://via.placeholder.com/1920x500') no-repeat center center/cover;
-    color: white;
+    background: url('img/refresh-hero-cuisine-bd.png') no-repeat center center/cover;
+    /* color: white; */
     height: 50vh;
     display: flex;
     justify-content: center;
